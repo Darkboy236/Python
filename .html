@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+</head>
+<body>
+    <h1>Current Date and Time</h1>
+    <p id="datetime"></p>
+
+    <script>
+        const now = new Date();
+        const dateTimeString = `Time: ${now.getHours()}:${now.getMinutes()}:${nowk.getSeconds()}<br>
+                                Date: ${now.getDate()}<br>
+                                Month: ${now.getMonth() + 1}<br>
+                                Year: ${now.getFullYear()}`;
+        document.getElementById('datetime').innerHTML = dateTimeString;
+    </script>
+</body>
+</html>
